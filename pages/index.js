@@ -45,9 +45,6 @@ export default function Home() {
               <td className={styles.number}>10</td>
             </tr>
           </table>
-
-          <a className={styles.share} target="_blank" href="https://wa.me/?texto=https://pauinsulina.vercel.app">Compartir link por WhatsApp</a>
-          <a className={styles.share} target="_blank" href="Paula%20Gil%20tabla%20insulina%0A120%20-150%202M%0A151%20-200%204M%0A201%20-240%206M%0A241%20-300%208M%0A+300%2010M">Compartir tabla por WhatsApp</a>
         </div>
       </main>
 
