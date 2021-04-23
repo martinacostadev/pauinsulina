@@ -49,7 +49,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .title,
@@ -76,8 +76,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
-  margin-top: 3rem;
+  max-width: 300px;
 }
 
 .card {
@@ -119,4 +118,36 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.titles {
+  border-style: 1px solid red;
+  text-align: left;
+  min-width: 100px;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 200px;
+}
+
+.td {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  width: 100px;
+}
+
+.row {
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.number {
+  text-align: center;
+  font-weight: bold;
+}
+
+.share {
+  margin-top: 30px;
+
 }

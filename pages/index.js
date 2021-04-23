@@ -5,60 +5,54 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Pau Insulina</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <h3 className={styles.title}>
+          Paula Gil <a href="#">insulina!</a>
+        </h3>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          ¿Cuánta insulina aplicar?
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <table className={styles.table}>
+            <tr className={styles.titles}>
+              <th>Rango</th>
+              <th>Miligramos</th>
+            </tr>
+            <tr className={styles.row}>
+              <td className={styles.td}>120-150</td>
+              <td className={styles.number}>2</td>
+            </tr>
+            <tr className={styles.row}>
+              <td className={styles.td}>151-200</td>
+              <td className={styles.number}>4</td>
+            </tr>
+            <tr className={styles.row}>
+              <td className={styles.td}>201-240</td>
+              <td className={styles.number}>6</td>
+            </tr>
+            <tr className={styles.row}>
+              <td className={styles.td}>241-300</td>
+              <td className={styles.number}>8</td>
+            </tr>
+            <tr className={styles.row}>
+              <td className={styles.td}>+300</td>
+              <td className={styles.number}>10</td>
+            </tr>
+          </table>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <a className={styles.share} target="_blank" href="https://wa.me/?texto=https://pauinsulina.vercel.app">Compartir link por WhatsApp</a>
+          <a className={styles.share} target="_blank" href="Paula%20Gil%20tabla%20insulina%0A120%20-150%202M%0A151%20-200%204M%0A201%20-240%206M%0A241%20-300%208M%0A+300%2010M">Compartir tabla por WhatsApp</a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
+        ♥
       </footer>
     </div>
   )
