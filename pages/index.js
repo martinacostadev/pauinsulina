@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h3 className={styles.title}>
-          Paula Gil <a href="#">insulina!</a>
+          Paula Gil <a href="#">insulina! 💉</a>
         </h3>
 
         <p className={styles.description}>
